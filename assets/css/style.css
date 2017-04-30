@@ -1,0 +1,100 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.service-box-bg-1{background-image: url(../img/service-box-bg-1.jpg)}
+.service-box-bg-2{background-image: url(../img/service-box-bg-2.jpg)}
+.service-box-bg-3{background-image: url(../img/service-box-bg-3.jpg)}
+.section-padding{
+    padding: 80px 0;
+}
+.section-heading{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section-heading h2{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.single-service-box{
+    border: 1px solid #ebebeb;
+    text-align: center;
+}
+.service-box-bg{
+    height: 200px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+.service-box-bg h2{
+    background: coral;
+    color:#fff;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+    padding: 15px;
+    position: absolute;
+    left: 8%;
+    width:84%;
+    margin: 0;
+    bottom:-26px
+}
+.service-box-content{
+    padding: 30px;
+    padding-top: 52px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.service-box-content p:last-child{
+    margin: 0;
+}
+.service-readmore{
+    display: inline-block;
+    color: #333;
+    font-size:15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+a.service-readmore:hover{
+    color:#333;
+}
+a.service-readmore i.fa {
+	padding-left: 3px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.service-readmore:hover i.fa {
+	color: coral;
+}
+
+
